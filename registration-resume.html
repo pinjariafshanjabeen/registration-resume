@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/registration-resume.css">
+        <script src="js/registration-resume.js"></script>
+    </head>
+    <style>
+      body{
+      margin:25px;
+      }
+      .pd{
+      color:black;
+      font-size:20px;
+      font-family:'Times New Roman';
+      border:1px solid;
+      }
+      
+      </style>
+    <body>
+        
+        <form class="row g-4" id="All">
+            <div class="col-md-4">
+                <label for="inputFirst Name" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="fname">
+              </div>
+              <div class="col-md-4">
+                <label for="inputLast Name" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lname">
+              </div>
+
+            <div class="col-md-8">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="text" class="form-control" id="mail">
+            </div>
+            
+            <div class="col-md-5">
+                <label for="inputContact no" class="form-label">Contact no</label>
+                <input type="text" class="form-control" id="cno">
+            </div>    
+              
+                <div class="col-md-5">
+                <label for="inputAadhar no" class="form-label">Aadhar no</label>
+                <input type="Aadhar no" class="form-control" id="adno">
+              </div>
+            <div class="col-8">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="add1" placeholder="1234 Main St">
+            </div>
+            <div class="col-8">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="add2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-5">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="city">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <option>Tamilnadu</option>
+                <option>kerala</option>
+                <option>Madhhya Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Delhi</option>
+                <option>Maharashtra</option>
+                <option>Karnataka</option>
+               </select>
+            </div>
+            
+            <div class="col-md-2">
+              <label for="inputpincode" class="form-label">pincode</label>
+              <input type="text" class="form-control" id="inputpincode">
+            </div>
+            
+            <p>Date of birth</p>
+            <div class="col-md-2">
+                <label for="inputDate" class="form-label">Date</label>
+                <select id="inputDate" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  <option>26</option>
+                  <option>27</option>
+                  <option>28</option>
+                  <option>29</option>
+                  <option>30</option>
+                  <option>31</option>
+                  </select>
+              </div>
+
+              <div class="col-md-2">
+                <label for="inputMonth" class="form-label">Month</label>
+                <select id="inputMonth" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>January</option>
+                  <option>Febraury</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="inputYear" class="form-label">Year</label>
+                <select id="inputYear" class="form-select">
+                  <option selected>Choose...</option>
+                  <option></option>
+                  <option>1993</option>
+                  <option>1994</option>
+                  <option>1995</option>
+                  <option>1996</option>
+                  <option>1997</option>
+                  <option>1998</option>
+                  <option>1999</option>
+                  <option>2000</option>
+                  <option>2001</option>
+                  <option>2002</option>
+                  <option>2003</option>
+                </select>
+            </div>
+
+            <p>Qualification Details</p>
+            <div class="col-md-2">
+                <label for="inputDegree" class="form-label">Degree CGPA%</label>
+                <input type="text" class="form-control" id="inputDegree">
+              </div>
+
+              <div class="col-md-2">
+                <label for="inputInter" class="form-label">Inter CGPA%</label>
+                <input type="text" class="form-control" id="inputInter">
+              </div>
+
+              <div class="col-md-2">
+                <label for="inputSSC" class="form-label">SSC CGPA%</label>
+                <input type="text" class="form-control" id="inputSSC">
+              </div>
+              
+              
+              <p>Pesonal Details</p>
+              
+              <div class="col-md-6">
+                <label for="inputFather Name" class="form-label">Father Name</label>
+                <input type="text" class="form-control" id="fathername">
+              </div>
+              <div class="col-md-6">
+                <label for="inputMother Name" class="form-label">Mother Name</label>
+                <input type="text" class="form-control" id="mothername">
+              </div>
+
+            <div class="col-md-6">
+              <label for="inputNationality" class="form-label">Nationality</label>
+              <input type="text" class="form-control" id="nationality">
+            </div>
+            
+            <div class="col-md-6">
+                <label for="inputMarital Status " class="form-label">Marital Status</label>
+                <input type="text" class="form-control" id="mari">
+            </div>    
+
+            <div class="col-md-6">
+              <label for="inputgender" class="form-label">Gender</label>
+              <input type="text" class="form-control" id="gender">
+          </div>   
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  yes i agree
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="button" onclick="resume()" class="btn btn-primary">submit</button>
+            </div>
+
+            <div class="resume" id="resume">
+              <h1 id="res">RESUME</h1>
+     
+<div class="pd">
+  <h2 style="background-color: darkmagenta;">Student Details</h2>
+<p id="name">Name:</p>
+
+<p id="ph no">contact no:</p>
+<p id="Email">Email:</p>
+</div>
+<div class="Obj">
+<h2 style="background-color:red">Objective</h2>
+<p>To succeed in an environment of growth and excellence and earn job which provides me job satisfaction
+  and self development and help me achieve Personal as well as organization goals
+   </p>
+</div>
+<hr>
+<div class="Education">
+<h2 style="background-color:brown">Education Qualification</h2>
+<table border="3px" width="500px" cellspacing="3px" cellpadding="5px">
+<tr>
+<td>Bsc</td>
+<td>St.Joseph's degree college</td>
+<td>2023</td>
+<td>8.7</td>
+</tr>
+<tr>
+<td>Mpcs</td>
+<td>Narayana</td>
+<td>2020</td>
+<td>9.4</td>
+</tr>
+<tr>
+<td>SSC</td>
+<td>Kasturi</td>
+<td>2018</td>
+<td>9.8<td>
+</tr>
+</table>
+</div>
+<hr>
+<div class="ts">
+<h2 style="background-color:gold">technical skills</h2>
+<ul>
+<li>C programming</li>
+<li>Java script</li>
+<li>DBMS</li>
+<li>Operating system</li>
+</ul>
+</div>
+<hr>
+<div class="Strength">
+<h2 style="background-color:blue">Strength</h2>
+<ul>
+<li>Self motivated</li>
+<li>team worker</li>
+</ul>
+</div>
+<hr>
+<div class="Hobbies">
+<h2 style="background-color:orange">Hobbies</h2>
+<ul>
+<li>Playing games</li>
+<li>Listening music</li>
+</ul>
+</div>
+<hr>
+<div class="details">
+<h2 style="background-color:chartreuse">Personal Details</h2>
+<ul>
+<li id="fa name">Father's Name:</li>
+<li id="mo name">Mother's Name:</li>
+<li id="nation">Nationality:</li>
+<li id="ma st">Marital status: </li>
+<li id="add">Address:</li>
+<li id="gen">gender:</li>
+</ul>
+</div>
+<hr>
+<div class="Declaration">
+<h2 style="background-color:grey">Declaration</h2>
+<p>I declare myself all data given above is true</p>
+<p>Place:Kurnool</p>
+<p style="text-align:Right;">Date:16-11-2022</p>
+</right>
+</div>
+
+            </div>
+            
+           
+
+          
+           
+          </form>
+          
+    
+          
+                
+        
+
+
+
+    </body>
+</html>
