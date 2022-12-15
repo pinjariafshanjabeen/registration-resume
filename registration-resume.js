@@ -1,0 +1,38 @@
+function resume(){
+    let fname;
+    fname=document.getElementById("fname").value;
+    console.log(fname);
+    let lname;
+    lname=document.getElementById("lname").value;
+    console.log(lname);
+    document.getElementById("name").innerHTML=fname+lname;
+    let mail;
+    mail=document.getElementById("mail").value;
+    console.log(mail);
+    document.getElementById("Email").innerHTML=mail;
+    cno=document.getElementById("cno").value;
+    console.log(cno);
+    document.getElementById("ph no").innerHTML=cno;
+    let add1;
+    add1=document.getElementById("add1").value;
+    console.log(add1);
+    let add2;
+    add2=document.getElementById("add2").value;
+    console.log(add2);
+    document.getElementById("add").innerHTML=add1+add2;
+    fathername=document.getElementById("fathername").value;
+    console.log(fathername);
+    document.getElementById("fa name").innerHTML=fathername;
+    mothername=document.getElementById("mothername").value;
+    console.log(mothername);
+    document.getElementById("mo name").innerHTML=mothername;
+    nationality=document.getElementById("nationality").value;
+    console.log(nationality);
+    document.getElementById("nation").innerHTML=nationality;
+    gender=document.getElementById("gender").value;
+    console.log(gender);
+    document.getElementById("gen").innerHTML=gender;
+    mari=document.getElementById("mari").value;
+    console.log(mari);
+    document.getElementById("ma st").innerHTML=mari;
+}
